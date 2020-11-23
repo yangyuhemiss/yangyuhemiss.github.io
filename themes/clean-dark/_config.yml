@@ -1,0 +1,53 @@
+fancybox: true ## If you want to use fancybox please set the value to true
+#google_search: ## Use Google search, true/false
+#baidu_search: true ## Use Baidu search, true/false
+#swiftype: ## Your swiftype_key, e.g. m7b11ZrsT8Me7gzApciT
+#tinysou: ## Your tinysou_key, e.g. 4ac092ad8d749fdc6293
+#google_analytics: ## Your Google Analytics tracking id, e.g. UA-XXXXXXXX-X
+#baidu_analytics: ## Your Baidu Analytics tracking id, e.g. XXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+favicon: /favicon.png ## Your path of favicon, e.g. /favicon.png
+keywords: ## the default keywords which is the content of meta keywords in the head of html file
+email: ## your email which contains in head of html file, e.g. howardliu1988@163.com
+
+menu:
+  - page: home
+    directory: .
+    icon: icon-home
+  - page: archive
+    directory: archives/
+    icon: icon-archive
+  - page: rss
+    directory: atom.xml
+    icon: icon-rss
+  - page: about
+    directory: about/
+    icon: icon-about
+
+comment:
+  valine:
+    appid: #Application <APP_ID> from LeanCloud.
+    appkey: #Application <APP_KEY> from LeanCloud.
+    verify: #Validation code.
+    visitor: #Article reading statistics.
+    notify: #Mail notifier, read more from https://github.com/xCss/Valine/wiki/Valine-%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F%E4%B8%AD%E7%9A%84%E9%82%AE%E4%BB%B6%E6%8F%90%E9%86%92%E8%AE%BE%E7%BD%AE
+    avatar: #avatar in comment list, allow value: ''/mm/identicon/monsterid/wavatar/retro/hide, read more from https://valine.js.org/avatar.html
+    placeholder: #Comment box placeholders.
+
+widgets: ## Seven widgets in sidebar provided: categories, tagcloud, tags, archives, recent_posts, recent_comments and links.
+#  - categories
+  - tagcloud
+#  - tags
+  - archives
+  - recent_posts
+#  - recent_comments
+  - links
+
+social:
+  github:
+  stackoverflow:
+  hosted: ## The pages-site provider e.g. coding-pages
+
+links:
+  - title: 沉潜飞动
+    url: http://www.howardliu.com/
